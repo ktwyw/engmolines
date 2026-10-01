@@ -1,0 +1,38 @@
+# Steady wall-cooled tubular reactor, first-order exothermic reaction A -> B: temperatures (K) at 11 thermocouples along the
+# 2 m reactor for three inlet temperatures. Generated from the plug-flow/axial-dispersion model of engmolines.problems.tubular_reactor
+# with k0 = 5e7 1/s, E = 60 kJ/mol, adiabatic rise 120 K, wall coefficient 0.1 1/s, wall at the inlet temperature, and 0.5 K noise.
+# Fault: thermocouple 8 of the 320 K run is disconnected (-999). Columns: T_in_K, thermocouple, x_m, T_K.
+T_in_K,thermocouple,x_m,T_K
+310.0,1,0.0,309.61
+310.0,2,0.2,310.58
+310.0,3,0.4,309.93
+310.0,4,0.6,311.96
+310.0,5,0.8,311.95
+310.0,6,1.0,311.82
+310.0,7,1.2,312.13
+310.0,8,1.4,312.74
+310.0,9,1.6,312.73
+310.0,10,1.8,313.01
+310.0,11,2.0,313.72
+320.0,1,0.0,320.28
+320.0,2,0.2,320.93
+320.0,3,0.4,321.83
+320.0,4,0.6,322.83
+320.0,5,0.8,323.28
+320.0,6,1.0,324.21
+320.0,7,1.2,325.48
+320.0,8,1.4,-999.0
+320.0,9,1.6,326.03
+320.0,10,1.8,327.2
+320.0,11,2.0,328.45
+330.0,1,0.0,329.93
+330.0,2,0.2,331.9
+330.0,3,0.4,334.26
+330.0,4,0.6,336.87
+330.0,5,0.8,337.71
+330.0,6,1.0,340.96
+330.0,7,1.2,342.02
+330.0,8,1.4,345.27
+330.0,9,1.6,347.36
+330.0,10,1.8,351.69
+330.0,11,2.0,354.71

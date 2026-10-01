@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use engmolines in your work, please cite it as below."
+title: "engmolines: the numerical method of lines for engineering PDEs, in Python"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yanwei
+    email: wangyanwei@gmail.com
+    orcid: "https://orcid.org/0000-0002-8488-9833"
+    website: "https://github.com/ktwyw"
+version: 0.1.0
+date-released: "2026-10-01"
+license: MIT
+repository-code: "https://github.com/ktwyw/engmolines"
+keywords:
+  - method of lines
+  - partial differential equations
+  - stiff ODEs
+  - finite differences
+  - finite volumes
+  - spectral methods
+  - scientific computing
+  - engineering education
+abstract: >-
+  A from-scratch, validated implementation of the numerical method of lines for engineering PDEs: stencils with
+  matched boundary closures, ghost-point boundary conditions, conservative and flux-limited operators, Fourier
+  spectral derivatives, stiffness analysis, and explicit, implicit (banded Newton), IMEX, symplectic and DAE
+  time integrators, with 37 example problems checked against exact solutions and benchmarks and a 16-notebook
+  course with worked solutions.
